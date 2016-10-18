@@ -1,10 +1,10 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
-#include <QGraphicsRectItem>
+#include "gameobject.h"
 #include <QKeyEvent>
 
-class Player : public QGraphicsRectItem
+class Player : public GameObject
 {
 public:
     void keyPressEvent(QKeyEvent * event);

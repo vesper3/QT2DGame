@@ -10,17 +10,9 @@ class GameObject : public QObject , public QGraphicsPixmapItem
     Q_OBJECT
 
 public:
-    GameObject();
-    GameObject(QPoint pos);
-    GameObject(bool vis);
-    GameObject(QPoint pos, bool vis);
-
-    QPixmap thing;
-
-    void SetVisibility(bool vis) {visible = vis;}
+    GameObject(QString fileName);
 
 private:
-    QPoint position;
     bool visible;
 };
 

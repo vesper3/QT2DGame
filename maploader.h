@@ -4,9 +4,8 @@
 #include <QXmlSimpleReader>
 #include <QObject>
 
-class MapLoader : public QObject, public QXmlSimpleReader
+class MapLoader : public QXmlSimpleReader
 {
-    Q_OBJECT
 public:
 };
 
