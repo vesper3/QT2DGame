@@ -1,6 +1,5 @@
 #include "player.h"
 
-
 #include <QDebug>
 
 void Player::keyPressEvent(QKeyEvent * event)
